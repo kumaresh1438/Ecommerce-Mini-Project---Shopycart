@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopyCart - Ecommerce Website</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--Link Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awasome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>ShopyCart</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--Side Navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="sidebar-navbar-links">
+            <p class="sidebar-navbar-link"><a href="index.html">Home</a></p>
+            <p class="sidebar-navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="sidebar-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+   <!--Contact Form-->
+
+    <div class="conact-container">
+        <h2>Get In Touch</h2>
+        <div class="conatct-form-container">
+            <form class="form-container">
+                <input type="text" placeholder="Enter the Name">
+                <input type="text" placeholder="Enter the Phone number">
+                <input type="email" placeholder="Enter the Email Addrss">
+                <textarea name=""  placeholder="Short Description" class="short-dec"></textarea>
+                <button class="form-button">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="footer-head">ShopyCart</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="footer-social-links">
+                    <i class="fa-brands fa-instagram" style="color: aliceblue;"></i>
+                    <i class="fa-brands fa-facebook" style="color: aliceblue;"></i>
+                    <i class="fa-brands fa-linkedin" style="color: aliceblue;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@copyright - 2024 - ShopyCart </p>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
